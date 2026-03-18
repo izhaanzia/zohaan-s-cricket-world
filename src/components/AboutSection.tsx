@@ -17,8 +17,8 @@ const AboutSection = () => {
     <section id="about" className="py-20 bg-background">
       <div
         ref={ref}
-        className={`container mx-auto px-6 max-w-3xl text-center transition-all duration-700 ${visible ? "animate-slide-up opacity-100" : "opacity-0 translate-y-10"}`}
-      >
+        className={`container mx-auto px-6 max-w-3xl text-center transition-all duration-700 ${visible ? "animate-slide-up opacity-100" : "opacity-0 translate-y-10"}`}>
+        
         <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-8">
           About Me 🌟
         </h2>
@@ -27,13 +27,13 @@ const AboutSection = () => {
             I am a <span className="text-primary font-bold">4th class student</span> who loves
             playing <span className="text-secondary font-bold">cricket</span> 🏏 and having fun
             with <span className="text-accent font-bold">friends</span> 👦. I was born on{" "}
-            <span className="text-primary font-bold">2nd May 2025</span> 🎂 and every day is a new
+            <span className="text-primary font-bold">2nd May 2014</span> 🎂 and every day is a new
             adventure for me! 🎉
           </p>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default AboutSection;
