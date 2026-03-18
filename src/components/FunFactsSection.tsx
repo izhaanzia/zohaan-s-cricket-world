@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 
 const facts = [
-  { emoji: "🎨", label: "Favorite Color", value: "Blue 💙" },
-  { emoji: "🍕", label: "Favorite Food", value: "Pizza & Biryani" },
+  { emoji: "🎨", label: "Favorite Color", value: "Black 🖤 & Red ❤️" },
+  { emoji: "🍕", label: "Favorite Food", value: "Shawarma 🥙" },
   { emoji: "🏏", label: "Favorite Cricketer", value: "Virat Kohli" },
   { emoji: "🎮", label: "Hobby", value: "Playing with Friends" },
 ];

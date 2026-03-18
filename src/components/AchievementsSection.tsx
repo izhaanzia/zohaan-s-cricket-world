@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 const achievements = [
   { emoji: "🏆", title: "Won School Match", desc: "Led my team to victory!" },
   { emoji: "⭐", title: "Best Player in Group", desc: "Scored the most runs!" },
-  { emoji: "🎯", title: "Best Fielder Award", desc: "Caught the most catches!" },
+  { emoji: "🎯", title: "Best Bowler Award", desc: "Got most wickets!!" },
 ];
 
 const AchievementsSection = () => {
