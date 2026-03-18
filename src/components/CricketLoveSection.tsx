@@ -28,8 +28,7 @@ const CricketLoveSection = () => {
           <p className="text-lg md:text-xl font-body font-medium leading-relaxed">
             Cricket is my <span className="text-accent font-bold">favorite game</span>! I love{" "}
             <span className="text-primary font-bold">batting</span> and hitting{" "}
-            <span className="text-secondary font-bold">sixes</span>! ⚡ When I grow up, I want to
-            play for my country and make everyone proud! 🇮🇳
+            <span className="text-secondary font-bold">sixes</span>! ⚡ 🇮🇳
           </p>
         </div>
       </div>
