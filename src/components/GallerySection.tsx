@@ -1,12 +1,10 @@
 import { useEffect, useRef, useState } from "react";
-import gallery1 from "@/assets/gallery-1.png";
 import gallery2 from "@/assets/gallery-2.png";
-import gallery3 from "@/assets/gallery-3.png";
 
 const images = [
-  { src: gallery1, alt: "Kids playing cricket together" },
+  { src: "/lovable-uploads/b7aface9-f747-42ba-b3c5-d11bf78cc473.png", alt: "Kids playing cricket together" },
   { src: gallery2, alt: "Cricket bat, ball and trophy" },
-  { src: gallery3, alt: "Watching a cricket match" },
+  { src: "/lovable-uploads/56b267d0-a3d1-48ac-839a-bfa35bfb6c58.png", alt: "Watching a cricket match" },
 ];
 
 const GallerySection = () => {
